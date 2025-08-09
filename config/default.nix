@@ -8,8 +8,6 @@
 		./plugins
 	];
 
-	
-
 	colorschemes.catppuccin.enable = true;
 	extraPackages = with pkgs; [
 		wl-clipboard
