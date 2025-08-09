@@ -19,7 +19,6 @@
 		gitsigns.enable = true;
 		which-key.enable = true;
 		autoclose.enable = true;
-		markview.enable = true;
 		nvim-surround.enable = true;
 	};
 }
