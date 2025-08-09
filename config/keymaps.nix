@@ -118,9 +118,8 @@
 			};
 			mode = [ "n" "v" ];
 		}
-		# Neotree
 		{
-			action = ":Neotree toggle<CR>";
+			action = ":lua Snacks.explorer()<CR>";
 			key = "<Space>e";
 			options = { 
 				silent = true; 

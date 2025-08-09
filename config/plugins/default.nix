@@ -7,9 +7,10 @@
 		./fidget.nix
 		./guess-indent.nix
 		./lualine.nix
-		./neotree.nix
+		# ./neotree.nix
 		./telescope.nix
 		./treesitter.nix
+		./snacks.nix
 	];
 
 	plugins = {
