@@ -20,5 +20,6 @@
 		which-key.enable = true;
 		autoclose.enable = true;
 		nvim-surround.enable = true;
+		colorful-menu.enable = true;
 	};
 }
