@@ -7,7 +7,6 @@
 		./fidget.nix
 		./guess-indent.nix
 		./lualine.nix
-		# ./neotree.nix
 		./telescope.nix
 		./treesitter.nix
 		./snacks.nix
@@ -22,5 +21,6 @@
 		autoclose.enable = true;
 		nvim-surround.enable = true;
 		colorful-menu.enable = true;
+		nix-develop.enable = true;
 	};
 }
