@@ -13,14 +13,15 @@
 	];
 
 	plugins = {
-		web-devicons.enable = true;
-		bufferline.enable = true;
-		toggleterm.enable = true;
-		gitsigns.enable = true;
-		which-key.enable = true;
 		autoclose.enable = true;
-		nvim-surround.enable = true;
+		bufferline.enable = true;
 		colorful-menu.enable = true;
+		gitsigns.enable = true;
 		nix-develop.enable = true;
+		nvim-surround.enable = true;
+		toggleterm.enable = true;
+		vimwiki.enable = true;
+		web-devicons.enable = true;
+		which-key.enable = true;
 	};
 }
