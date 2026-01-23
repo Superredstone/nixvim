@@ -7,9 +7,10 @@
 		./fidget.nix
 		./guess-indent.nix
 		./lualine.nix
+		./snacks.nix
 		./telescope.nix
 		./treesitter.nix
-		./snacks.nix
+		./vimwiki.nix
 	];
 
 	plugins = {
@@ -20,7 +21,6 @@
 		nix-develop.enable = true;
 		nvim-surround.enable = true;
 		toggleterm.enable = true;
-		vimwiki.enable = true;
 		web-devicons.enable = true;
 		which-key.enable = true;
 	};
