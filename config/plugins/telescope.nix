@@ -1,10 +1,10 @@
 { ... }:
-{	
-	plugins.telescope = {
-		enable = true;
-		keymaps = {
-			"<Space>f" = "find_files";
-			"<Space>g" = "live_grep";
-		};
-	};
+{
+  plugins.telescope = {
+    enable = true;
+    keymaps = {
+      "<Space>f" = "find_files";
+      "<Space>g" = "live_grep";
+    };
+  };
 }
