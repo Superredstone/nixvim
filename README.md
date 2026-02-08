@@ -1,5 +1,9 @@
 # My nixvim configuration 
 
+Neovim the way i want it, declarative.
+
+![Screenshot](assets/screenshot.png)
+
 ## How to run
 ```bash
 nix run github:Superredstone/nixvim
