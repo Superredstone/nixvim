@@ -24,6 +24,7 @@
       phpactor.enable = true;
       gleam.enable = true;
       elixirls.enable = true;
+      qmlls.enable = true;
     };
     keymaps = {
       lspBuf = {
