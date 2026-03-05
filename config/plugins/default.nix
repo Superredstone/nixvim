@@ -18,6 +18,7 @@
     bufferline.enable = true;
     colorful-menu.enable = true;
     gitsigns.enable = true;
+    lazygit.enable = true;
     nix-develop.enable = true;
     nvim-surround.enable = true;
     toggleterm.enable = true;
