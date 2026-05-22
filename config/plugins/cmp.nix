@@ -13,6 +13,8 @@
           { name = "path"; }
           { name = "buffer"; }
           { name = "dap"; }
+          { name = "blink-emoji"; }
+          { name = "blink-ripgrep"; }
         ];
         mapping = {
           "<Tab>" = "cmp.mapping.select_next_item()";

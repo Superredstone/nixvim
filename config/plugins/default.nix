@@ -2,26 +2,28 @@
 {
   imports = [
     ./comment.nix
-    ./dap.nix
-    ./dashboard.nix
-    ./fidget.nix
-    ./guess-indent.nix
     ./lualine.nix
-    ./snacks.nix
+    ./lsp.nix
+    ./gitsigns.nix
+    ./cmp.nix
     ./telescope.nix
-    ./vimwiki.nix
   ];
 
   plugins = {
-    autoclose.enable = true;
-    bufferline.enable = true;
-    colorful-menu.enable = true;
-    gitsigns.enable = true;
-    lazygit.enable = true;
-    nix-develop.enable = true;
-    nvim-surround.enable = true;
-    toggleterm.enable = true;
+    neo-tree.enable = true;
     web-devicons.enable = true;
+    bufferline.enable = true;
+    nvim-autopairs.enable = true;
     which-key.enable = true;
+    notify.enable = true;
+    toggleterm.enable = true;
+    cursorline.enable = true;
+    treesitter.enable = true;
+    todo-comments.enable = true;
+    fidget.enable = true;
+    blink-indent.enable = true;
+    blink-ripgrep.enable = true;
+    blink-pairs.enable = true;
+    guess-indent.enable = true;
   };
 }

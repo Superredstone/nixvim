@@ -1,6 +1,6 @@
 { ... }:
 {
-  plugins.guess-indent = {
+  plugins.gitsigns = {
     enable = true;
   };
 }

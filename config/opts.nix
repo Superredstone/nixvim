@@ -3,15 +3,15 @@
   opts = {
     number = true;
     relativenumber = true;
-    signcolumn = "yes";
-    splitright = true;
-    splitbelow = true;
-    cursorline = true;
     scrolloff = 5;
-    undofile = true;
-    ignorecase = true;
+    shiftwidth = 4;
+    signcolumn = "yes";
+    autoindent = true;
+    updatetime = 100;
+    cursorline = true;
     smartcase = true;
-    gdefault = true;
+    ignorecase = true;
     termguicolors = true;
+    gdefault = true;
   };
 }
