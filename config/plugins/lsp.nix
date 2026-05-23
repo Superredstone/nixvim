@@ -22,8 +22,6 @@
       docker_compose_language_service.enable = true;
       jsonls.enable = true;
       phpactor.enable = true;
-      gleam.enable = true;
-      elixirls.enable = true;
       qmlls.enable = true;
     };
     keymaps = {
