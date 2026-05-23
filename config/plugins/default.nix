@@ -1,11 +1,13 @@
 { ... }:
 {
   imports = [
-    ./comment.nix
-    ./lualine.nix
-    ./lsp.nix
-    ./gitsigns.nix
+    ./blink-indent.nix
     ./cmp.nix
+    ./comment.nix
+    ./cursorline.nix
+    ./gitsigns.nix
+    ./lsp.nix
+    ./lualine.nix
     ./telescope.nix
   ];
 
@@ -17,13 +19,11 @@
     which-key.enable = true;
     notify.enable = true;
     toggleterm.enable = true;
-    cursorline.enable = true;
     treesitter.enable = true;
     todo-comments.enable = true;
     fidget.enable = true;
     blink-indent.enable = true;
     blink-ripgrep.enable = true;
     blink-pairs.enable = true;
-    guess-indent.enable = true;
   };
 }

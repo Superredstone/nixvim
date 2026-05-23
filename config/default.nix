@@ -1,9 +1,9 @@
 { pkgs, ... }:
 {
   imports = [
-    ./plugins
-    ./opts.nix
     ./keybindings.nix
+    ./opts.nix
+    ./plugins
   ];
 
   colorschemes.catppuccin.enable = true;

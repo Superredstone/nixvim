@@ -1,17 +1,18 @@
 { ... }:
 {
   opts = {
+    cursorline = true;
     number = true;
     relativenumber = true;
     scrolloff = 5;
     shiftwidth = 4;
     signcolumn = "yes";
     autoindent = true;
-    updatetime = 100;
-    cursorline = true;
+    updatetime = 200;
     smartcase = true;
     ignorecase = true;
     termguicolors = true;
     gdefault = true;
+    cursorlineopt = "both";
   };
 }
