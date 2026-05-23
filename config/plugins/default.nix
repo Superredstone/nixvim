@@ -25,5 +25,6 @@
     blink-indent.enable = true;
     blink-ripgrep.enable = true;
     blink-pairs.enable = true;
+    mini-icons.enable = true;
   };
 }
