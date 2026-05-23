@@ -9,6 +9,7 @@
     ./lsp.nix
     ./lualine.nix
     ./telescope.nix
+    ./which-key.nix
   ];
 
   plugins = {
@@ -16,7 +17,6 @@
     web-devicons.enable = true;
     bufferline.enable = true;
     nvim-autopairs.enable = true;
-    which-key.enable = true;
     notify.enable = true;
     toggleterm.enable = true;
     treesitter.enable = true;
