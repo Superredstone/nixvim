@@ -16,13 +16,13 @@
       };
       zls.enable = true;
       nim_langserver.enable = true;
-      pyright.enable = true;
       emmet_language_server.enable = true;
       ts_ls.enable = true;
       docker_compose_language_service.enable = true;
       jsonls.enable = true;
       phpactor.enable = true;
       qmlls.enable = true;
+      pylsp.enable = true;
     };
     keymaps = {
       lspBuf = {
