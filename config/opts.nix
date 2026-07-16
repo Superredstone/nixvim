@@ -12,6 +12,7 @@
     smartcase = true;
     ignorecase = true;
     termguicolors = true;
+    expandtab = false;
     gdefault = true;
     cursorlineopt = "both";
   };
