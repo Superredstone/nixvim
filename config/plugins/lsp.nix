@@ -23,6 +23,7 @@
       phpactor.enable = true;
       qmlls.enable = true;
       pylsp.enable = true;
+      ruff.enable = true;
     };
     keymaps = {
       lspBuf = {
