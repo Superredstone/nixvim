@@ -25,6 +25,7 @@
         qmlls.enable = true;
         pylsp.enable = true;
         ruff.enable = true;
+        slint_lsp.enable = true;
       };
       keymaps = {
         lspBuf = {
