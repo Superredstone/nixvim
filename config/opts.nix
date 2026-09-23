@@ -14,6 +14,5 @@
     termguicolors = true;
     expandtab = false;
     gdefault = true;
-    cursorlineopt = "both";
   };
 }

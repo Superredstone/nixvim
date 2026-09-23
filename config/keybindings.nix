@@ -14,6 +14,7 @@ in
     {
       key = "<C-s>";
       action = ":w<CR>";
+      options = defaultOptions;
     }
     {
       key = "<S-q>";
@@ -38,6 +39,7 @@ in
     {
       action = ":ToggleTerm direction=float<CR>";
       key = "<Space>t";
+      options = defaultOptions;
     }
     {
       action = "<C-\\><C-n>";

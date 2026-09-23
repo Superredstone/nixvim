@@ -12,8 +12,6 @@
           { name = "nvim_lsp_signature_help"; }
           { name = "path"; }
           { name = "buffer"; }
-          { name = "dap"; }
-          { name = "blink-emoji"; }
           { name = "blink-ripgrep"; }
         ];
         mapping = {

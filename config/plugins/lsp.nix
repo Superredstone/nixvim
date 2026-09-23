@@ -23,7 +23,6 @@
         jsonls.enable = true;
         phpactor.enable = true;
         qmlls.enable = true;
-        pylsp.enable = true;
         ruff.enable = true;
         slint_lsp.enable = true;
       };

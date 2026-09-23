@@ -2,7 +2,11 @@
   description = "My Neovim configuration";
 
   inputs = {
-    nixvim.url = "github:nix-community/nixvim";
+    nixpkgs.url = "github:NixOS/nixpkgs/nixpkgs-unstable";
+    nixvim = {
+      url = "github:nix-community/nixvim";
+      inputs.nixpkgs.follows = "nixpkgs";
+    };
     flake-utils.url = "github:numtide/flake-utils";
   };
 

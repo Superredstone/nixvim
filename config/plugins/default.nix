@@ -1,7 +1,7 @@
 { ... }:
 {
   imports = [
-    ./blink-indent.nix
+    ./guess-indent.nix
     ./cmp.nix
     ./comment.nix
     ./cursorline.nix
@@ -16,7 +16,6 @@
     neo-tree.enable = true;
     web-devicons.enable = true;
     bufferline.enable = true;
-    nvim-autopairs.enable = true;
     notify.enable = true;
     toggleterm.enable = true;
     treesitter.enable = true;
