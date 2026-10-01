@@ -6,7 +6,13 @@
     ./plugins
   ];
 
-  colorschemes.catppuccin.enable = true;
+  colorschemes = {
+    onedark.enable = true;
+    nord.enable = true;
+    dracula.enable = true;
+    catppuccin.enable = true;
+  };
+
   clipboard = {
     register = "unnamedplus";
     providers.wl-copy.enable = true;
