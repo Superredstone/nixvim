@@ -6,10 +6,13 @@
     ./plugins
   ];
 
+  colorscheme = "catppuccin";
+
   colorschemes = {
     onedark.enable = true;
     nord.enable = true;
     dracula.enable = true;
+    gruvbox.enable = true;
     catppuccin.enable = true;
   };
 
