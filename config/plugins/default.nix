@@ -5,10 +5,10 @@
     ./cmp.nix
     ./comment.nix
     ./cursorline.nix
+    ./fzf-lua.nix
     ./gitsigns.nix
     ./lsp.nix
     ./lualine.nix
-    ./telescope.nix
     ./which-key.nix
   ];
 
