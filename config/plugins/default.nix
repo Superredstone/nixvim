@@ -18,7 +18,12 @@
     bufferline.enable = true;
     notify.enable = true;
     toggleterm.enable = true;
-    treesitter.enable = true;
+    treesitter = {
+      enable = true;
+      highlight.enable = true;
+      indent.enable = true;
+      folding.enable = false;
+    };
     todo-comments.enable = true;
     fidget.enable = true;
     blink-indent.enable = true;
