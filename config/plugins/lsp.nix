@@ -32,6 +32,9 @@
           "<Space>k" = "hover";
           "<Space>r" = "rename";
           "<Space>a" = "code_action";
+          "<Space>R" = "references";
+          "<Space>d" = "definition";
+          "<Space>D" = "type_definition";
         };
       };
     };
