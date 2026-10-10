@@ -18,7 +18,7 @@ in
     }
     {
       key = "<S-q>";
-      action = ":bdelete<CR>";
+      action = ":Bdelete<CR>";
       options = defaultOptions;
     }
     {

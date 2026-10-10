@@ -2,15 +2,13 @@
   ...
 }:
 let
-  mkMap =
-    action: desc:
-    {
-      inherit action;
-      options = {
-        silent = true;
-        inherit desc;
-      };
+  mkMap = action: desc: {
+    inherit action;
+    options = {
+      silent = true;
+      inherit desc;
     };
+  };
 in
 {
   plugins.fzf-lua = {
@@ -22,7 +20,7 @@ in
         width = 0.9;
       };
       # fzf_opts = {
-        # "--layout" = "reverse";
+      # "--layout" = "reverse";
       # };
       git_icons = true;
       defaults.file_icons = true;

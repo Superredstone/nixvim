@@ -10,12 +10,13 @@
     ./lsp.nix
     ./lualine.nix
     ./which-key.nix
+    ./bufferline.nix
+    ./neo-tree.nix
   ];
 
   plugins = {
-    neo-tree.enable = true;
+    bufdelete.enable = true;
     web-devicons.enable = true;
-    bufferline.enable = true;
     notify.enable = true;
     toggleterm.enable = true;
     treesitter = {
