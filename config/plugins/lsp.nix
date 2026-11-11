@@ -24,7 +24,6 @@
         phpactor.enable = true;
         qmlls.enable = true;
         ruff.enable = true;
-        slint_lsp.enable = true;
         zuban.enable = true;
       };
       keymaps = {
